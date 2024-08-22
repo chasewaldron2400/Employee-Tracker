@@ -24,4 +24,9 @@ CREATE TABLE department_table (
   department_id INTEGER NOT NULL
   );
 
+  CREATE TABLE manager_names (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(30) NOT NULL
+  );
+
 
